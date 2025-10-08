@@ -75,3 +75,16 @@ nav a:hover{
     padding: 10px;
     border-radius: 5px;
 }
+@media screen and(max-width:500px){
+    body{
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+          grid-template-areas: 
+         "he"
+         "n"
+         "m"
+         "a"
+         "f";
+    }
+    
+}
