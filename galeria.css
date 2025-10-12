@@ -38,7 +38,7 @@ section {
 header {
     margin-top: 15px;
     grid-area: h;
-    background-color: rgb(47, 147, 241);
+    background-color: rgb(0, 174, 255);
     border: solid 3px rgb(6, 82, 153);
     border-radius: 10px;
 }
@@ -51,7 +51,7 @@ header h1 {
 nav {
     margin-top: 15px;
     padding: 20px;
-    background-color: rgb(13, 113, 194);
+     background-color: rgb(0, 174, 255);
     grid-area: n;
     border-radius: 5px;
 }
@@ -69,13 +69,13 @@ grid-area: f;
 text-align: center;
 margin-top: 15px;
 padding: 20px;
-background-color: aqua;
+background-color: rgb(0, 174, 255);
 border: solid 2px rgb(47, 118, 248);
 border-radius: 10px;
 }
 
 a:hover {
-    background-color: aqua;
+    background-color: rgb(0, 174, 255);
 }
 
 @media screen and (max-width:720px) {
