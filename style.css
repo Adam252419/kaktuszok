@@ -75,16 +75,28 @@ nav a:hover{
     padding: 10px;
     border-radius: 5px;
 }
-@media screen and(max-width:500px){
-    body{
-          grid-template-columns: 1fr;
-          grid-template-rows: auto;
-          grid-template-areas: 
-         "he"
-         "n"
-         "m"
-         "a"
-         "f";
+@media screen and (max-width:520px) {
+    body {
+        max-width: 300px;
     }
-    
+    article {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media screen and (max-width:320px) {
+    body {
+        max-width: 200px;
+    }
+    article {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:200px) {
+    body {
+        display: none;
+    }
 }
